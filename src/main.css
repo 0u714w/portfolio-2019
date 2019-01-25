@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+
+@media (max-width:736px) {
+    img {
+        width: calc(100% - 150px);
+    }
+    body {
+        width: 100%;
+    }
+}
+
+.title {
+    width: 50%;
+    margin: auto;
+    font-family: 'Amiri';
+    font-size: 100px;
+    text-align: center;
+    color: rgb(0, 191, 255);
+    
+    
+
+}
+
+
+a:link {
+    color: rgb(0, 191, 255);
+}
+
+a:visited {
+    color: rgb(0, 191, 255);
+}
+
+.projects {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Amiri';
+    color: rgb(0, 191, 255);
+    border: 1px solid rgb(0, 191, 255);
+    background-color: white;
+}
+
+
+.bio {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    font-family: 'Amiri';
+    
+    
+}
+
+.mainPhoto {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid rgb(0, 191, 255); 
+  
+  
+}
+
+body {
+
+    background-image: url("./Images/art.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+    
+    
+
+}
