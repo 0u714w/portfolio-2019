@@ -85,7 +85,7 @@ const Projects = () => (
 const HometpageBio = () => (
   <Container text>
   <Segment className='bio'>
-  <p>Hi, I'm a Front End Software Developer living in Indianapolis, IN. On this page you will find the most recent projects I have worked on. Feel free to contact me via email at <a href="mailto:douglassenas@gmail.com">douglassenas@gmail.com</a>.</p>
+  <p>Hi, I'm a Junior Developer living in Indianapolis, IN. On this page you will find the most recent projects I have worked on. Feel free to contact me via email at <a href="mailto:douglassenas@gmail.com">douglassenas@gmail.com</a>.</p>
   </Segment>
   </Container>
 )
