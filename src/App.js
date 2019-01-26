@@ -91,7 +91,7 @@ const HometpageBio = () => (
 )
 
 const Contact = ({ mobile }) => (
-  <Container text>
+  <Container className="bio" text>
   <Header as='h2' className='title' content='Contact' style={{
         fontSize: mobile ? '1.5em' : '1.7em',
         fontWeight: 'normal',
@@ -100,8 +100,23 @@ const Contact = ({ mobile }) => (
       }}>
     
   </Header>
-  <p className= "bio"><a href="mailto:douglassenas@gmail.com">douglassenas@gmail.com</a>
+
+  <p><a href="mailto:douglassenas@gmail.com">douglassenas@gmail.com</a>
 </p>
+<Segment className="footer">
+<a href="https://github.com/dougenas">
+<Image src={require('./Images/github.png')}></Image>
+</a>
+<a href="https://www.linkedin.com/in/doug-enas-ab54b914/">
+<Image src={require('./Images/linkedin.png')}></Image>
+</a>
+</Segment>
+  </Container>
+)
+
+const Footer = () => (
+  <Container>
+
   </Container>
 )
 
@@ -148,6 +163,7 @@ class DesktopContainer extends Component {
             <HometpageBio />
             <Projects />
             <Contact />
+            <Footer />
           </Segment>
         </Visibility>
 
@@ -208,6 +224,7 @@ class MobileContainer extends Component {
             <HometpageBio />
             <Projects />
             <Contact />
+            <Footer />
               </Menu>
             </Container>
           
