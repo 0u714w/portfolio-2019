@@ -91,7 +91,7 @@ const HometpageBio = () => (
 )
 
 const Contact = ({ mobile }) => (
-  <Container className="bio" text>
+  <Container className="contact" text>
   <Header as='h2' className='title' content='Contact' style={{
         fontSize: mobile ? '1.5em' : '1.7em',
         fontWeight: 'normal',
