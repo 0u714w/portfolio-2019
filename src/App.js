@@ -27,7 +27,7 @@ const HomepageHeading = ({ mobile }) => (
         fontSize: mobile ? '1em' : '2em',
         fontWeight: 'normal',
         marginBottom: 0,
-        marginLeft: '775px',
+        marginRight: '25px',
         marginTop: mobile ? '1.5em' : '3em',
         
       }}
