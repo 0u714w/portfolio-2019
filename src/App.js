@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './main.css'
 import PropTypes from 'prop-types'
+import BandcampPlayer from 'react-bandcamp'
 
 import {
   Container,
@@ -26,8 +27,9 @@ const HomepageHeading = ({ mobile }) => (
         fontSize: mobile ? '1em' : '2em',
         fontWeight: 'normal',
         marginBottom: 0,
+        marginLeft: '775px',
         marginTop: mobile ? '1.5em' : '3em',
-        textAlign: 'center',
+        
       }}
     />
   </Container>
@@ -36,14 +38,19 @@ const HomepageHeading = ({ mobile }) => (
 
 const MainImage = () => (
   <Image
-  src={require('./Images/profile.jpg')}
+  src={require('./Images/avatar.png')}
   size='small'
   className='mainPhoto'>
 
   </Image>
 )
 
-
+const Music = () => (
+  <Segment className='projects'>
+    <h2>Music</h2>
+  <BandcampPlayer album="2852856610" title='Bandcamp Player' tracklist="true" height="500px"></BandcampPlayer>
+  </Segment>
+)
 
 const Projects = () => (
   <Container text>
@@ -66,18 +73,6 @@ const Projects = () => (
         <Image src={require('./Images/sokoban.png')}></Image>
         </a> 
         <br></br>
-  <h2>Connect Four</h2>
-  <h4>Javascript</h4> 
-  <a href="https://dougenas.github.io/connectfour/">
-        <Image src={require('./Images/connectfour.png')}></Image>
-        </a>
-        <br></br>
-  <h2>Rock Paper Scissors</h2> 
-  <h4>Javascript</h4>
-  <a href="https://dougenas.github.io/rockpaperscissors/">
-        <Image src={require('./Images/rockpaperscissors.png')}></Image>
-        </a>
-        <br></br>
   </Segment>
   </Container>
 )
@@ -85,7 +80,7 @@ const Projects = () => (
 const HometpageBio = () => (
   <Container text>
   <Segment className='bio'>
-  <p>Hi, I'm a Junior Developer living in Indianapolis, IN. On this page you will find the most recent projects I have worked on. Feel free to contact me via email at <a href="mailto:douglassenas@gmail.com">douglassenas@gmail.com</a>. Thanks!</p>
+  <p>Hi, my name is Doug Enas. I'm a creative living in Indianapolis, IN. On this page you will find the most recent projects I have worked on. Feel free to contact me via email at <a href="mailto:douglassenas@gmail.com">douglassenas@gmail.com</a>. Thanks!</p>
   </Segment>
   </Container>
 )
@@ -156,12 +151,13 @@ class DesktopContainer extends Component {
             >
               
             </Menu>
-            <HomepageHeading />
             <MainImage />
-            
-            
+            <HomepageHeading />
             <HometpageBio />
             <Projects />
+            <br></br>
+            <Music />
+            <br></br>
             <Contact />
             <Footer />
           </Segment>
@@ -216,13 +212,13 @@ class MobileContainer extends Component {
                 <Menu.Item position='right'>
                   
                 </Menu.Item>
-                <HomepageHeading />
                 <MainImage />
-                
-            
-            
+                <HomepageHeading />
             <HometpageBio />
             <Projects />
+            <br></br>
+            <Music />
+            <br></br>
             <Contact />
             <Footer />
               </Menu>
