@@ -27,8 +27,9 @@ const HomepageHeading = ({ mobile }) => (
         fontSize: mobile ? '1em' : '2em',
         fontWeight: 'normal',
         marginBottom: 0,
-        marginRight: '25px',
+        marginRight: '550px',
         marginTop: mobile ? '1.5em' : '3em',
+        
         
       }}
     />
@@ -38,7 +39,7 @@ const HomepageHeading = ({ mobile }) => (
 
 const MainImage = () => (
   <Image
-  src={require('./Images/avatar.png')}
+  src={require('./Images/profile.jpg')}
   size='small'
   className='mainPhoto'>
 
@@ -151,9 +152,9 @@ class DesktopContainer extends Component {
             >
               
             </Menu>
-            <MainImage />
             <HomepageHeading />
-            <HometpageBio />
+            {/* <HometpageBio /> */}
+            <br></br>
             <Projects />
             <br></br>
             <Music />
@@ -212,9 +213,10 @@ class MobileContainer extends Component {
                 <Menu.Item position='right'>
                   
                 </Menu.Item>
-                <MainImage />
-                <HomepageHeading />
-            <HometpageBio />
+                
+            <HomepageHeading />
+            {/* <HometpageBio /> */}
+            <br></br>
             <Projects />
             <br></br>
             <Music />

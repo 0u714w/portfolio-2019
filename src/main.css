@@ -9,7 +9,7 @@
 }
 
 .title {
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
     font-family: 'Amiri';
     font-size: 100px;
@@ -43,10 +43,11 @@ a:visited {
 .bio {
     text-align: center;
     margin: auto;
-    width: 50%;
+    float: right;
+    width: 250px;
     font-family: 'Amiri';
     background-color: white;
-    /* border: 1px solid #1455F5; */
+    border: 1px solid #1455F5;
     padding: 10px;
     opacity: 0.8;
     border-radius: 20px;
@@ -67,8 +68,9 @@ a:visited {
     display: block;
     margin: auto;
     float: right;
+    /* margin-top: 100px; */
     margin-right: 350px;
-    /* border: 2px solid #1455F5; */
+    border: 2px solid #1455F5;
 }
 
 body {
