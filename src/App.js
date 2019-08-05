@@ -24,7 +24,7 @@ const HomepageHeading = ({ mobile }) => (
       content='Doug Enas'
       inverted
       style={{
-        fontSize: mobile ? '1em' : '2em',
+        fontSize: mobile ? '3em' : '4em',
         fontWeight: 'normal',
         marginBottom: 0,
         marginRight: '550px',
@@ -74,6 +74,12 @@ const Projects = () => (
         <Image src={require('./Images/sokoban.png')}></Image>
         </a> 
         <br></br>
+  <h2>Connect Four</h2>
+  <h4>Javascript</h4>
+  <a href="https://dougenas.github.io/connectfour/">
+    <Image src={require('./Images/connectfour.png')}></Image>
+  </a>
+  <br></br>
   </Segment>
   </Container>
 )
