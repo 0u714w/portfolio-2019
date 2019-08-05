@@ -109,9 +109,6 @@ const Contact = ({ mobile }) => (
 <a href="https://github.com/dougenas">
 <Image src={require('./Images/github.png')}></Image>
 </a>
-<a href="https://www.linkedin.com/in/doug-enas-ab54b914/">
-<Image src={require('./Images/linkedin.png')}></Image>
-</a>
 </Segment>
   </Container>
 )
