@@ -1,9 +1,9 @@
 {
   "main.css": "/portfolio-2019/static/css/main.1bfc7a4c.chunk.css",
-  "main.js": "/portfolio-2019/static/js/main.400d0128.chunk.js",
-  "main.js.map": "/portfolio-2019/static/js/main.400d0128.chunk.js.map",
-  "static/js/1.86ad7780.chunk.js": "/portfolio-2019/static/js/1.86ad7780.chunk.js",
-  "static/js/1.86ad7780.chunk.js.map": "/portfolio-2019/static/js/1.86ad7780.chunk.js.map",
+  "main.js": "/portfolio-2019/static/js/main.7f8c41e3.chunk.js",
+  "main.js.map": "/portfolio-2019/static/js/main.7f8c41e3.chunk.js.map",
+  "static/js/1.d9432b04.chunk.js": "/portfolio-2019/static/js/1.d9432b04.chunk.js",
+  "static/js/1.d9432b04.chunk.js.map": "/portfolio-2019/static/js/1.d9432b04.chunk.js.map",
   "runtime~main.js": "/portfolio-2019/static/js/runtime~main.d74347aa.js",
   "runtime~main.js.map": "/portfolio-2019/static/js/runtime~main.d74347aa.js.map",
   "static/media/main.css": "/portfolio-2019/static/media/blueart.ad1c2331.png",
@@ -11,8 +11,9 @@
   "static/media/kwitter.png": "/portfolio-2019/static/media/kwitter.a8ff30f9.png",
   "static/media/birdnerd.png": "/portfolio-2019/static/media/birdnerd.f1a7f6fd.png",
   "static/media/sokoban.png": "/portfolio-2019/static/media/sokoban.f0ec01a9.png",
+  "static/media/connectfour.png": "/portfolio-2019/static/media/connectfour.c2f04d24.png",
   "static/css/main.1bfc7a4c.chunk.css.map": "/portfolio-2019/static/css/main.1bfc7a4c.chunk.css.map",
   "index.html": "/portfolio-2019/index.html",
-  "precache-manifest.2158b8e370727639ddae60e4efa91e4e.js": "/portfolio-2019/precache-manifest.2158b8e370727639ddae60e4efa91e4e.js",
+  "precache-manifest.79761ace6be4d2476270577e83a696b7.js": "/portfolio-2019/precache-manifest.79761ace6be4d2476270577e83a696b7.js",
   "service-worker.js": "/portfolio-2019/service-worker.js"
 }
