@@ -27,7 +27,7 @@ const HomepageHeading = ({ mobile }) => (
         fontSize: mobile ? '3em' : '4em',
         fontWeight: 'normal',
         marginBottom: 0,
-        marginRight: '550px',
+        
         marginTop: mobile ? '1.5em' : '3em',
         
         
@@ -55,7 +55,9 @@ const Music = () => (
 
 const Projects = () => (
   <Container text>
+
   <Segment className='projects'>
+  {/* <Header as='h2' className='title' content='Projects'></Header> */}
   <h2>Kwitter</h2>
   <h4>React, Redux</h4>
   <a href="https://dougenas.github.io/kwitter/">
@@ -94,8 +96,8 @@ const HometpageBio = () => (
 
 const Contact = ({ mobile }) => (
   <Container className="contact" text>
-  <Header as='h2' className='title' content='Contact' style={{
-        fontSize: mobile ? '1.5em' : '1.7em',
+  <Header as='h1' className='title' content='Doug Enas' style={{
+        fontSize: mobile ? '3em' : '3.2em',
         fontWeight: 'normal',
         marginTop: mobile ? '0.5em' : '1.5em',
         textAlign: 'center',
@@ -155,14 +157,15 @@ class DesktopContainer extends Component {
             >
               
             </Menu>
-            <HomepageHeading />
+            {/* <HomepageHeading /> */}
+            <Contact />
             {/* <HometpageBio /> */}
             <br></br>
             <Projects />
             <br></br>
             <Music />
             <br></br>
-            <Contact />
+            
             <Footer />
           </Segment>
         </Visibility>
@@ -217,14 +220,14 @@ class MobileContainer extends Component {
                   
                 </Menu.Item>
                 
-            <HomepageHeading />
+            {/* <HomepageHeading /> */}
             {/* <HometpageBio /> */}
+            <Contact />
             <br></br>
             <Projects />
             <br></br>
             <Music />
             <br></br>
-            <Contact />
             <Footer />
               </Menu>
             </Container>
