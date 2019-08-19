@@ -27,23 +27,10 @@ const HomepageHeading = ({ mobile }) => (
         fontSize: mobile ? '3em' : '4em',
         fontWeight: 'normal',
         marginBottom: 0,
-        
         marginTop: mobile ? '1.5em' : '3em',
-        
-        
       }}
     />
   </Container>
-)
-
-
-const MainImage = () => (
-  <Image
-  src={require('./Images/profile.jpg')}
-  size='small'
-  className='mainPhoto'>
-
-  </Image>
 )
 
 const Music = () => (
@@ -57,7 +44,6 @@ const Projects = () => (
   <Container text>
 
   <Segment className='projects'>
-  {/* <Header as='h2' className='title' content='Projects'></Header> */}
   <h2>Kwitter</h2>
   <h4>React, Redux</h4>
   <a href="https://dougenas.github.io/kwitter/">
@@ -157,9 +143,8 @@ class DesktopContainer extends Component {
             >
               
             </Menu>
-            {/* <HomepageHeading /> */}
             <Contact />
-            {/* <HometpageBio /> */}
+            <HometpageBio />
             <br></br>
             <Projects />
             <br></br>
@@ -219,10 +204,8 @@ class MobileContainer extends Component {
                 <Menu.Item position='right'>
                   
                 </Menu.Item>
-                
-            {/* <HomepageHeading /> */}
-            {/* <HometpageBio /> */}
             <Contact />
+            <HometpageBio />
             <br></br>
             <Projects />
             <br></br>
