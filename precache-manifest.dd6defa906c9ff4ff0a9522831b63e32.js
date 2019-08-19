@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "9fec2dfd1757ee92f5b1",
-    "url": "/portfolio-2019/static/css/main.c02b6b2e.chunk.css"
+    "revision": "5ef532c1433e731dcbd3",
+    "url": "/portfolio-2019/static/css/main.cd0bfd27.chunk.css"
   },
   {
-    "revision": "9fec2dfd1757ee92f5b1",
-    "url": "/portfolio-2019/static/js/main.9fec2dfd.chunk.js"
+    "revision": "5ef532c1433e731dcbd3",
+    "url": "/portfolio-2019/static/js/main.5ef532c1.chunk.js"
   },
   {
-    "revision": "86ad7780c279121338c0",
-    "url": "/portfolio-2019/static/js/1.86ad7780.chunk.js"
+    "revision": "63551ae452e12a12b52e",
+    "url": "/portfolio-2019/static/js/1.63551ae4.chunk.js"
   },
   {
     "revision": "d74347aa02e9a745f330",
     "url": "/portfolio-2019/static/js/runtime~main.d74347aa.js"
-  },
-  {
-    "revision": "a57a717e26e7ff6ae88c90e349aee6f0",
-    "url": "/portfolio-2019/static/media/profile.a57a717e.jpg"
   },
   {
     "revision": "a8ff30f9b95ce1fc4ecf1f9d79fe913c",
@@ -36,7 +32,7 @@ self.__precacheManifest = [
     "url": "/portfolio-2019/static/media/connectfour.c2f04d24.png"
   },
   {
-    "revision": "21bd799e25658170255004e146ac85d8",
+    "revision": "dc9dca9307eb1edc7b393671fdf448f2",
     "url": "/portfolio-2019/index.html"
   }
 ];
