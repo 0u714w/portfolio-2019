@@ -14,11 +14,11 @@
     font-size: 100px;
     text-align: center;
     color: black;
-    opacity: 0.8;
+    
 }
 
 a:link {
-    color: grey
+    color: white
 }
 
 a:visited {
@@ -30,13 +30,13 @@ a:visited {
     width: 500px;
     text-align: center;
     font-family: 'Amiri';
-    color: grey;
-    background-color: white;
+    color: white;
+    /* background-color: white; */
 }
 
 .footer {
-    margin: auto;
-    width: 50%;
+    text-align: center;
+    font-family: 'Amiri';
 }
 
 .bio {
@@ -53,10 +53,11 @@ a:visited {
 .contact {
     text-align: center;
     margin: auto;
-    width: 500px;
+    width: 50%;
     font-family: 'Amiri';
-    background-color: white;
-    border: 1px solid #1455F5;
+    color: white;
+    /* background-color: white; */
+    
 }
 
 .mainPhoto {

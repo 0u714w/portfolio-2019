@@ -16,22 +16,6 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 
-const HomepageHeading = ({ mobile }) => (
-  <Container text>
-    <Header
-      as='h1'
-      className= 'title'
-      content='Doug Enas'
-      inverted
-      style={{
-        fontSize: mobile ? '3em' : '4em',
-        fontWeight: 'normal',
-        marginBottom: 0,
-        marginTop: mobile ? '1.5em' : '3em',
-      }}
-    />
-  </Container>
-)
 
 const Music = () => (
   <Segment className='projects'>
@@ -75,7 +59,7 @@ const Projects = () => (
 const HometpageBio = () => (
   <Container text>
   <Segment className='bio'>
-  <p>Hi, my name is Doug Enas. I'm a creative living in Indianapolis, IN. On this page you will find the most recent projects I have worked on. Feel free to contact me via email at <a href="mailto:douglassenas@gmail.com">douglassenas@gmail.com</a>. Thanks!</p>
+  <p>Hi, my name is Doug Enas. I'm a creative living in Indianapolis, IN. On this page you will find the most recent projects I have worked on. Feel free to contact me via email at <a href="mailto:douglassenas@gmail.com" style={{color:"black"}} >douglassenas@gmail.com</a>. Thanks!</p>
   </Segment>
   </Container>
 )
@@ -83,6 +67,7 @@ const HometpageBio = () => (
 const Contact = ({ mobile }) => (
   <Container className="contact" text>
   <Header as='h1' className='title' content='Doug Enas' style={{
+        color: "white",
         fontSize: mobile ? '3em' : '3.2em',
         fontWeight: 'normal',
         marginTop: mobile ? '0.5em' : '1.5em',
@@ -91,25 +76,22 @@ const Contact = ({ mobile }) => (
     
   </Header>
 
-  <p><a href="mailto:douglassenas@gmail.com">douglassenas@gmail.com</a>
-</p>
-<Segment className="footer">
-<a href="https://github.com/dougenas">
-<Image src={require('./Images/github.png')}></Image>
-</a>
-</Segment>
   </Container>
 )
 
 const Footer = () => (
   <Container>
-
+<Segment className="footer">
+<a href="mailto:douglassenas@gmail.com">douglassenas@gmail.com</a>
+<br></br>
+<br></br>
+<a href="https://github.com/dougenas">
+<Image src={require('./Images/github.png')} style={{padding: "2px", backgroundColor: "white"}}></Image>
+</a>
+</Segment>
   </Container>
 )
 
-HomepageHeading.propTypes = {
-  mobile: PropTypes.bool,
-}
 
 class DesktopContainer extends Component {
   state = {}
